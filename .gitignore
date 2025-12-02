@@ -1,0 +1,47 @@
+# Cache de pytest
+.pytest_cache/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Configuración local del IDE
+.vscode/
+.idea/
+
+# Reportes generados por la suite
+reports/
+
+# Capturas de pantalla automáticas por fallos
+screenshots/
+
+# Archivos de logs
+*.log
+
+# Configuraciones del sistema
+.DS_Store
+
+# Configuraciones de ejecución
+*.swp
+*.swo
+
+# ChromeDriver descargado manualmente
+chromedriver
+chromedriver.exe
+
+# Carpeta de builds o dist
+dist/
+build/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de cobertura
+.coverage
+htmlcov/
