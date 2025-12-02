@@ -74,3 +74,40 @@ proyecto-final-automation-testing-Eudes-Mieres/
 ├─ pytest.ini
 ├─ requirements.txt
 └─ READM
+```
+
+---
+
+## ⚙️ Configuración de Entorno
+
+- **1.Clonar el repositorio:** 
+git clone https://github.com/<usuario>/proyecto-final-automation-testing-Eudes-Mieres.git
+cd proyecto-final-automation-testing-Eudes-Mieres
+
+- **2.Instalar dependencias:**
+pip3 install -r requirements.txt
+
+- **3.Requisitos de navegador:**
+Este proyecto utiliza Google Chrome y ChromeDriver:
+
+Tener Chrome instalado
+Tener chromedriver accesible en el PATH
+
+---
+
+## 🔧 Configuración Global
+- **URLs de prueba**
+- BASE_URL_UI = "https://www.saucedemo.com"
+- BASE_URL_API = "https://jsonplaceholder.typicode.com"
+
+---
+
+## 🧪 Ejecución de Pruebas
+- **Ejecutar todas las pruebas (UI + API)**
+pytest --html=reports/report_all.html --self-contained-html
+
+- **Ejecutar solo pruebas de UI**
+pytest -m ui --html=reports/report_ui.html --self-contained-html
+
+- **Ejecutar solo pruebas de API**
+pytest -m api --html=reports/report_api.html --self-contained-html
