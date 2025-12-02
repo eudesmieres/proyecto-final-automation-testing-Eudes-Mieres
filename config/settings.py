@@ -10,8 +10,8 @@ BASE_URL_API = "https://jsonplaceholder.typicode.com"
 # Configuración del navegador
 BROWSER = os.getenv("BROWSER", "chrome")
 
-IMPLICIT_WAIT = 10        # espera implícita
-PAGE_LOAD_TIMEOUT = 30    # carga de página
+IMPLICIT_WAIT = 30        # espera implícita
+PAGE_LOAD_TIMEOUT = 60    # carga de página
 
 
 SCREENSHOTS_DIR = BASE_DIR / "screenshots"
